@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:700px) {
+    
+body{
+    background-color: hsl(27, 66%, 92%);
+    padding-top: 4%;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px
+}
+header .write-up p{
+    color: hsl(27, 66%, 92%);
+    font-weight: 400;
+}
+header .write-up h1{
+    color: hsl(27, 66%, 92%);
+    font-weight: 500;
+}
+.container{
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 30px;
+}
+.container--header h2{
+    color: hsl(25, 47%, 15%);
+    font-size: 25px;
+    font-weight: 500;
+}
+.chart{
+    height: 200px;
+}
+.container--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.horizontal--line{
+    border-bottom: 2px solid hsla(28, 10%, 53%, 0.364);
+}
+.footer--content1 h5{
+    color: hsl(28, 10%, 53%);
+}
+.footer--content1 h1{
+    color: hsl(25, 47%, 15%);
+    font-weight: 500;
+}
+.footer--content2 h6{
+    text-align: right;
+    color: hsl(25, 47%, 15%);
+    font-size: 16px;
+}
+.footer--content2 h5{
+    color: hsl(28, 10%, 53%);
+}
+}
+
+@media screen and (max-width: 700px) {
+   body{
+    background-color: hsl(27, 66%, 92%);
+    padding: 20px;
+   }
+   main{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px
+}
+header .write-up p{
+    color: hsl(27, 66%, 92%);
+}
+header .write-up h1{
+    color: hsl(27, 66%, 92%);
+}
+.container{
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 30px;
+}
+.container--header h2{
+    color: hsl(25, 47%, 15%);
+    font-size: 25px;
+}
+.chart{
+    height: 200px;
+}
+.container--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.horizontal--line{
+    border-bottom: 2px solid hsla(28, 10%, 53%, 0.364);
+}
+.footer--content1 h5{
+    color: hsl(28, 10%, 53%);
+}
+.footer--content1 h1{
+    color: hsl(25, 47%, 15%);
+}
+.footer--content2 h6{
+    text-align: right;
+    color: hsl(25, 47%, 15%);
+    font-size: 16px;
+}
+.footer--content2 h5{
+    color: hsl(28, 10%, 53%);
+}
+};
